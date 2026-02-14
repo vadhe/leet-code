@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/vadhe/leet-code/tree/master/0013-roman-to-integer) |
+| [0128-longest-consecutive-sequence](https://github.com/vadhe/leet-code/tree/master/0128-longest-consecutive-sequence) |
 | [0242-valid-anagram](https://github.com/vadhe/leet-code/tree/master/0242-valid-anagram) |
 ## Math
 |  |
@@ -48,9 +49,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/vadhe/leet-code/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vadhe/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Binary Search
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vadhe/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/vadhe/leet-code/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
