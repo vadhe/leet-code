@@ -16,12 +16,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/vadhe/leet-code/tree/master/0013-roman-to-integer) |
+| [0125-valid-palindrome](https://github.com/vadhe/leet-code/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/vadhe/leet-code/tree/master/0242-valid-anagram) |
 | [0844-backspace-string-compare](https://github.com/vadhe/leet-code/tree/master/0844-backspace-string-compare) |
 | [3136-valid-word](https://github.com/vadhe/leet-code/tree/master/3136-valid-word) |
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/vadhe/leet-code/tree/master/0125-valid-palindrome) |
 | [0844-backspace-string-compare](https://github.com/vadhe/leet-code/tree/master/0844-backspace-string-compare) |
 ## Stack
 |  |
