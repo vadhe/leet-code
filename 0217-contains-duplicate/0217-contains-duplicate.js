@@ -3,14 +3,20 @@
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
-   const hash = {}
-   let result = false;
-   nums.map((item) => {
-     if(Object.hasOwn(hash, item)){
-      result = true
+    let seen = new Set()
+    // for(let i=0; i< nums.length; i++){
+    //     console.log("ok",seen)
+    //     if(seen.has(nums[i])){
+    //         return true
+    //     }
+    //     seen.add(nums[i], nums[i]);
+    // }
+    for (const num of nums) {
+     if (seen.has(num)) {
+       return true;
      }
-     hash[item] = item
-   })
-   return result;
-  //  console.log(hash)
+     seen.add(num);
+   }
+    return false
 };
+
