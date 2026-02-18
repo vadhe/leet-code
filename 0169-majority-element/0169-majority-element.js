@@ -24,13 +24,12 @@ var majorityElement = function(nums) {
 let count = 0;
 let candidate
 for(const v of nums) {
-    if(candidate === undefined) {
+    if(count === 0) {
         candidate = v;
+        count = 1
     } else if (candidate === v) {
         count++
-    } else if(count === 0) {
-            candidate = v
-    }else {
+    } else {
         count--
       
     }
