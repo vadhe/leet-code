@@ -13,20 +13,13 @@ var singleNumber = function(nums) {
         }
     }
       let re;
-//     console.log(candidate)
-//     for (const entry of candidate) {
-//      if (re === undefined) {
-//         re = entry
-//      } else if (entry = )
-// }
 
     let minKey = null;
 let minValue = Infinity;
 
 for (let [key, value] of candidate) {
-    if (value < minValue) {
-        minValue = value;
-        minKey = key;
+    if(value === 1) {
+        return key
     }
 }
     return minKey
