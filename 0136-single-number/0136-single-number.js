@@ -12,15 +12,14 @@ var singleNumber = function(nums) {
              candidate.set(nums[i],1)
         }
     }
-      let re;
 
-    let minKey = null;
-let minValue = Infinity;
+
+
 
 for (let [key, value] of candidate) {
     if(value === 1) {
         return key
     }
 }
-    return minKey
+    return 0
 };
