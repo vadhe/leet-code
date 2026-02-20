@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/vadhe/leet-code/tree/master/0128-longest-consecutive-sequence) |
+| [0136-single-number](https://github.com/vadhe/leet-code/tree/master/0136-single-number) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vadhe/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/vadhe/leet-code/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/vadhe/leet-code/tree/master/0217-contains-duplicate) |
@@ -82,4 +83,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/vadhe/leet-code/tree/master/0169-majority-element) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/vadhe/leet-code/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
