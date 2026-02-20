@@ -5,14 +5,12 @@
 var singleNumber = function(nums) {
 
 //     let candidate = new Map()
-//     for(let i =0;  i< nums.length; i++) {
-//         if(candidate.get(nums[i])) {
-//             candidate.set(nums[i], candidate.get(nums[i]) + 1)
-//         } else {
-//              candidate.set(nums[i],1)
-//         }
-//     }
-return nums.reduce((acc, n) => acc ^ n, 0);
+     let acc = 0;
+    for(let i =0;  i< nums.length; i++) {
+       acc =  acc ^ nums[i]
+    }
+    return acc
+// return nums.reduce((acc, n) => acc ^ n, 0);
 
 
 // for (let [key, value] of candidate) {
