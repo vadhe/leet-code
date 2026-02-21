@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/vadhe/leet-code/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/vadhe/leet-code/tree/master/0013-roman-to-integer) |
 ## String
 |  |
@@ -69,11 +70,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/vadhe/leet-code/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/vadhe/leet-code/tree/master/0021-merge-two-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/vadhe/leet-code/tree/master/0083-remove-duplicates-from-sorted-list) |
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/vadhe/leet-code/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/vadhe/leet-code/tree/master/0021-merge-two-sorted-lists) |
 ## Divide and Conquer
 |  |
