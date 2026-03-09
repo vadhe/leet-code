@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vadhe/leet-code/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/vadhe/leet-code/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/vadhe/leet-code/tree/master/0217-contains-duplicate) |
+| [2239-find-closest-number-to-zero](https://github.com/vadhe/leet-code/tree/master/2239-find-closest-number-to-zero) |
 ## Binary Search
 |  |
 | ------- |
