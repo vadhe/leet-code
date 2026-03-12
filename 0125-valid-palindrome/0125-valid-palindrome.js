@@ -3,26 +3,19 @@
  * @return {boolean}
  */
 var isPalindrome = function(s) {
-    let l = 0
-    let r = s.length - 1
-
-    while (l < r) {
-        while (l < r && !isAlphaNum(s[l])) l++
-        while (l < r && !isAlphaNum(s[r])) r--
-
-        if (s[l].toLowerCase() !== s[r].toLowerCase()) return false
-
-        l++
-        r--
-    }
-    return true
-}
-
-function isAlphaNum(c) {
-    let code = c.charCodeAt(0)
-    return (
-        (code >= 48 && code <= 57) ||
-        (code >= 65 && code <= 90) ||
-        (code >= 97 && code <= 122)
-    )
+   const string = s.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
+//    if(string.match(/[^a-zA-Z]/g)){
+//     return false
+//    }
+   let L = 0
+   let R = string.length -1
+   while(L < R) {
+    console.log(`${string[L].toLowerCase()} ---- ${string[R]} -------${string[L] !== string[R]}`)
+     if(string[L] !== string[R]){
+        return false
+     }
+     L++
+     R--
+   }
+   return true
 }
