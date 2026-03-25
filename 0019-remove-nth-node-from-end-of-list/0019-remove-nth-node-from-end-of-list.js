@@ -11,6 +11,7 @@
  * @return {ListNode}
  */
 var removeNthFromEnd = function(head, n) {
+    
     let curr = head
     let arr = []
     while(curr) {
@@ -30,4 +31,21 @@ var removeNthFromEnd = function(head, n) {
 
     console.log(header)
     return header.next
+
 };
+
+// [1,2,3,4,5]
+// dummy -> 0 [1,2,3,4,5]
+
+// start 
+// fast = head.next.next = 2
+// slow = head.next = 0
+// while
+// fast = head.next ---> = 3
+// slow = head.next --> 1
+// fast = head.next ---> = 4
+// slow = head.next --> 2
+// fast = head.next ---> = 5
+// slow = head.next --> 3
+// bingung selanjutnya gmn soalnya fast udah di terrakhir
+
