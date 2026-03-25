@@ -12,25 +12,40 @@
  */
 var removeNthFromEnd = function(head, n) {
     
-    let curr = head
-    let arr = []
-    while(curr) {
-        arr.push(curr.val)
-        curr = curr.next
-    }
-    arr.splice(arr.length - n, 1)
-    let header = new ListNode(0)
-    let penunjuk = header; 
-    for(const v of arr) {
-        while(penunjuk.next){
-            penunjuk = penunjuk.next
-        }
-        penunjuk.next = new ListNode(v, null)
-        console.log(header.val)
-    }
+    // let curr = head
+    // let arr = []
+    // while(curr) {
+    //     arr.push(curr.val)
+    //     curr = curr.next
+    // }
+    // arr.splice(arr.length - n, 1)
+    // let header = new ListNode(0)
+    // let penunjuk = header; 
+    // for(const v of arr) {
+    //     while(penunjuk.next){
+    //         penunjuk = penunjuk.next
+    //     }
+    //     penunjuk.next = new ListNode(v, null)
+    //     console.log(header.val)
+    // }
 
-    console.log(header)
-    return header.next
+    // console.log(header)
+    // return header.next
+
+    const dummy = new ListNode(0, null)
+    dummy.next = head 
+    let fast = dummy
+    let slow = dummy
+    for(let i = 0; i < n; i++) {
+        fast = fast.next
+    }
+    while(fast.next) {
+        fast = fast.next
+        slow = slow.next
+    }
+    let temp = slow.next.next
+    slow.next = temp
+    return dummy.next
 
 };
 
