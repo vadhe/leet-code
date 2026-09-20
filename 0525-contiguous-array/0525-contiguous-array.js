@@ -9,9 +9,10 @@ var findMaxLength = function(nums) {
     const map = new Map();
     prefix.map((item, index) => {
         if(map.has(item)) {
-            if (maxLength < index - map.get(item)) {
-                maxLength = index - map.get(item)
-            }
+            // if (maxLength < index - map.get(item)) {
+            //     maxLength = Math.max(maxLength, index - map.get(item))
+            // }
+            maxLength = Math.max(maxLength, index - map.get(item))
         //    map.set(item, index);
         } else {
             map.set(item, index)
